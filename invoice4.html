@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>invoice</title>
+    <style>
+        body{
+            background-color: #F6F6F6; 
+            margin: 0;
+            padding: 0;
+        }
+        h1,h2,h3,h4,h5,h6{
+            margin: 0;
+            padding: 0;
+        }
+        p{
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            width: 80%;
+            margin-right: auto;
+            margin-left: auto;
+        }
+        .brand-section{
+           background-color: white;
+           padding: 10px 40px;
+           color: black;
+        }
+        .logo{
+            width: 50%;
+        }
+
+        .row{
+            display: flex;
+            flex-wrap: wrap;
+            
+        }
+        .col-6{
+            width: 50%;
+            flex: 0 0 auto;
+        }
+        .text-white{
+            color:black;
+        }
+        .company-details{
+            float: right;
+            text-align: right;
+        }
+        .body-section{
+            padding: 16px;
+            height: 18vh;
+            
+        }
+        .heading{
+            font-size: 20px;
+            margin-bottom: 08px;
+        }
+        .sub-heading{
+            color: #262626;
+            margin-bottom: 05px;
+        }
+        table{
+            background-color: #fff;
+            width: 100%;
+            border-collapse: collapse;
+        }
+        table thead tr{
+            border: 1px solid #111;
+            background-color: black;
+            color: white;
+        }
+        table td {
+            vertical-align: middle !important;
+            text-align: center;
+        }
+        table th, table td {
+            padding-top: 08px;
+            padding-bottom: 08px;
+        }
+        .table-bordered{
+            box-shadow: 0px 0px 5px 0.5px gray;
+        }
+        .table-bordered td, .table-bordered th {
+            border: 1px solid #dee2e6;
+        }
+        .text-right{
+            text-align: end;
+        }
+        .w-20{
+            width: 20%;
+        }
+        .float-right{
+            float: right;
+        }
+     
+
+       
+body {
+  background: rgb(204,204,204); 
+}
+page {
+  background: white;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 0.5cm;
+  box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
+}
+page[size="A4"] {  
+  width: 21cm;
+  height: 29.7cm; 
+}
+page[size="A4"][layout="portrait"] {
+  width: 29.7cm;
+  height: 21cm;  
+}
+@media print {
+  body, page {
+    margin: 0;
+    box-shadow: 0;
+  }
+}
+
+
+
+    </style>
+</head>
+<body>
+    <page size="A4">
+        <br><br>
+    <div class="container">
+        
+
+        <div class="body-section" style="background-image: url(Screenshot\ 2023-07-18\ 104136.jpg);background-repeat: no-repeat; background-position: center;background-size: cover;">
+            <div class="row">
+                <div class="col-6">
+                    
+
+                </div>
+                <div class="col-6">
+                    <h2 class="heading"></h2>
+                    <p class="sub-heading"></p>
+                    <p class="sub-heading"> </p>
+                    
+                </div>
+            </div>
+        </div>
+
+       
+
+        <div class="body-section">
+            <p>&copy; 
+                Dear Sue ,
+                <br> Thank you for your continued partnership as we collaborate to empower an ecosystem of good that builds a better world.
+                <br><br>
+                <br> According to our records, you are listed as the renewal contact for My Nonprofit (Site ID: 12345).
+            
+                <br><br>  upcoming renewal details:
+                <br> <br> <ul>
+                    <li><b>Renewal Period:</b> 07/23/2018 - 07/22/2019</li>
+                    <li><b>Estimated Renewal Amount:</b> $x,xxx</li>
+                    <li><b>Products Renewing: </b>Financial Edge</li>
+                    <li><b>Invoice Date: </b>30 days prior to 07/23/2018</li>
+                  </ul> 
+            </p>
+            <p >Act now by selecting one of the options below concerning your renewal. </p>
+            <br>
+            <p style="color: blue;"><u>Yes,i acknowledge the upcoming renewal.</u></p>
+         <p style="color: blue;"><u> I would like to schedule a call to discuss this renewal with my Renewal Representative.</u></p>
+         <br>
+            <p>1. &nbsp; If you select "Yes, I acknowledge the upcoming renewal" By selecting this option, you will receive the itemized invoice 30 days prior to the Renewal Period start date as listed above.</p>
+            <p>2. &nbsp;If you select "I would like to schedule a call to discuss this renewal with my Renewal Representative" If you choose this option, your Renewal Representative will email you within 2 business days to set up an appointment date and time to discuss this renewal.</p>
+        </div>      
+    </div>      
+
+
+</page>
+</body>
+</html>
